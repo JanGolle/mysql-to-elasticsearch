@@ -1,0 +1,34 @@
+{
+    "name": "JanGolle/mysql-to-elasticsearch",
+    "description": "PHP tool for maintaining MySql data with ElasticSearch index as simple as possible.",
+    "keywords": ["mysql", "elasticsearch", "index"],
+    "homepage": "https://github.com/JanGolle/mysql-to-elasticsearch",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "psr/log": "~1.0",
+        "ruflin/elastica": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "authors": [
+        {
+            "name": "Elijah Zakirov",
+            "email": "elijah.zakirov@gmail.com",
+            "homepage": "https://github.com/JanGolle",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Schemalastic\\": "src/Schemalastic"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Schemalastic\\Test\\": "tests/Schemalastic"
+        }
+    }
+}
